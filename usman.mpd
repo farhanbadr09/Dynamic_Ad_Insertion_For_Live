@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MPD availabilityStartTime="1970-01-01T00:00:00Z" maxSegmentDuration="PT3S" minBufferTime="PT2S" minimumUpdatePeriod="PT2S" profiles="urn:mpeg:dash:profile:isoff-live:2011,urn:hbbtv:dash:profile:isoff-live:2012" publishTime="2021-10-21T13:18:49Z" timeShiftBufferDepth="PT5M" type="dynamic" xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:daiconnect="urn:daiconnect:dai:2019:xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd">
+ <Period duration="PT19.008000S" id="54" start="PT454117H13M36.009291S">
+  <BaseURL>
+   https://demo.daiconnect.com/live/dash/usp/dash_blue_Mobole
+  </BaseURL>
+  <AdaptationSet audioSamplingRate="48000" codecs="mp4a.40.2" contentType="audio" group="1" id="1" mimeType="audio/mp4" segmentAlignment="true" startWithSAP="1">
+   <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="1"/>
+   <SupplementalProperties schemeIdUri="urn:dvb:dash:lowlatency:critical:2019" value="true"/>
+   <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+   <SegmentTemplate initialization="scte35-$RepresentationID$.dash" media="scte35-$RepresentationID$-$Time$.dash" presentationTimeOffset="78471456768446" timescale="48000">
+    <SegmentTimeline>
+     <S d="92160" r="5" t="78471457008062"/>
+     <S d="119808"/>
+    </SegmentTimeline>
+   </SegmentTemplate>
+   <Representation bandwidth="69000" id="audio=69000">
+   </Representation>
+  </AdaptationSet>
+  <AdaptationSet codecs="avc1.64001F" contentType="video" group="2" height="720" id="2" mimeType="video/mp4" par="16:9" sar="1:1" segmentAlignment="true" startWithSAP="1" width="1280">
+   <SupplementalProperties schemeIdUri="urn:dvb:dash:lowlatency:critical:2019" value="true"/>
+   <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+   <SegmentTemplate initialization="scte35-$RepresentationID$.dash" media="scte35-$RepresentationID$-$Time$.dash" presentationTimeOffset="147133981440000" timescale="90000">
+    <SegmentTimeline>
+     <S d="172800" r="5" t="147133981895876"/>
+     <S d="217324"/>
+    </SegmentTimeline>
+   </SegmentTemplate>
+   <Representation bandwidth="700000" id="video=700000" scanType="progressive">
+   </Representation>
+  </AdaptationSet>
+ </Period>
+ <Period duration="PT1M16.992000S" id="55" start="PT454117H13M55.017291S">
+  <BaseURL>
+   https://demo.daiconnect.com/live/dash/usp/dash_blue_Mobole
+  </BaseURL>
+  <AdaptationSet audioSamplingRate="48000" codecs="mp4a.40.2" contentType="audio" group="1" id="1" mimeType="audio/mp4" segmentAlignment="true" startWithSAP="1">
+   <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="1"/>
+   <SupplementalProperties schemeIdUri="urn:dvb:dash:lowlatency:critical:2019" value="true"/>
+   <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+   <SegmentTemplate initialization="scte35-$RepresentationID$.dash" media="scte35-$RepresentationID$-$Time$.dash" presentationTimeOffset="78471457680830" timescale="48000">
+    <SegmentTimeline>
+     <S d="64512" t="78471457680830"/>
+     <S d="92160" r="37"/>
+     <S d="129024"/>
+    </SegmentTimeline>
+   </SegmentTemplate>
+   <Representation bandwidth="69000" id="audio=69000">
+   </Representation>
+  </AdaptationSet>
+  <AdaptationSet codecs="avc1.64001F" contentType="video" group="2" height="720" id="2" mimeType="video/mp4" par="16:9" sar="1:1" segmentAlignment="true" startWithSAP="1" width="1280">
+   <SupplementalProperties schemeIdUri="urn:dvb:dash:lowlatency:critical:2019" value="true"/>
+   <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+   <SegmentTemplate initialization="scte35-$RepresentationID$.dash" media="scte35-$RepresentationID$-$Time$.dash" presentationTimeOffset="147133983150000" timescale="90000">
+    <SegmentTimeline>
+     <S d="128276" t="147133983150000"/>
+     <S d="172800" r="37"/>
+     <S d="235324"/>
+    </SegmentTimeline>
+   </SegmentTemplate>
+   <Representation bandwidth="700000" id="video=700000" scanType="progressive">
+   </Representation>
+  </AdaptationSet>
+ </Period>
+ <Period duration="PT19.008000S" id="56" start="PT454117H15M12.009291S">
+  <BaseURL>
+   https://demo.daiconnect.com/live/dash/usp/dash_blue_Mobole
+  </BaseURL>
+  <AdaptationSet audioSamplingRate="48000" codecs="mp4a.40.2" contentType="audio" group="1" id="1" mimeType="audio/mp4" segmentAlignment="true" startWithSAP="1">
+   <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="1"/>
+   <SupplementalProperties schemeIdUri="urn:dvb:dash:lowlatency:critical:2019" value="true"/>
+   <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+   <SegmentTemplate initialization="scte35-$RepresentationID$.dash" media="scte35-$RepresentationID$-$Time$.dash" presentationTimeOffset="78471461376446" timescale="48000">
+    <SegmentTimeline>
+     <S d="55296" t="78471461376446"/>
+     <S d="92160" r="7"/>
+     <S d="119808"/>
+    </SegmentTimeline>
+   </SegmentTemplate>
+   <Representation bandwidth="69000" id="audio=69000">
+   </Representation>
+  </AdaptationSet>
+  <AdaptationSet codecs="avc1.64001F" contentType="video" group="2" height="720" id="2" mimeType="video/mp4" par="16:9" sar="1:1" segmentAlignment="true" startWithSAP="1" width="1280">
+   <SupplementalProperties schemeIdUri="urn:dvb:dash:lowlatency:critical:2019" value="true"/>
+   <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+   <SegmentTemplate initialization="scte35-$RepresentationID$.dash" media="scte35-$RepresentationID$-$Time$.dash" presentationTimeOffset="147133990080000" timescale="90000">
+    <SegmentTimeline>
+     <S d="110276" t="147133990080000"/>
+     <S d="172800" r="7"/>
+     <S d="217324"/>
+    </SegmentTimeline>
+   </SegmentTemplate>
+   <Representation bandwidth="700000" id="video=700000" scanType="progressive">
+   </Representation>
+  </AdaptationSet>
+ </Period>
+ <Period duration="PT1M16.992000S" id="57" start="PT454117H15M31.017291S">
+  <BaseURL>
+   https://demo.daiconnect.com/live/dash/usp/dash_blue_Mobole
+  </BaseURL>
+  <AdaptationSet audioSamplingRate="48000" codecs="mp4a.40.2" contentType="audio" group="1" id="1" mimeType="audio/mp4" segmentAlignment="true" startWithSAP="1">
+   <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="1"/>
+   <SupplementalProperties schemeIdUri="urn:dvb:dash:lowlatency:critical:2019" value="true"/>
+   <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+   <SegmentTemplate initialization="scte35-$RepresentationID$.dash" media="scte35-$RepresentationID$-$Time$.dash" presentationTimeOffset="78471462288830" timescale="48000">
+    <SegmentTimeline>
+     <S d="64512" t="78471462288830"/>
+     <S d="92160" r="37"/>
+     <S d="129024"/>
+    </SegmentTimeline>
+   </SegmentTemplate>
+   <Representation bandwidth="69000" id="audio=69000">
+   </Representation>
+  </AdaptationSet>
+  <AdaptationSet codecs="avc1.64001F" contentType="video" group="2" height="720" id="2" mimeType="video/mp4" par="16:9" sar="1:1" segmentAlignment="true" startWithSAP="1" width="1280">
+   <SupplementalProperties schemeIdUri="urn:dvb:dash:lowlatency:critical:2019" value="true"/>
+   <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+   <SegmentTemplate initialization="scte35-$RepresentationID$.dash" media="scte35-$RepresentationID$-$Time$.dash" presentationTimeOffset="147133991790000" timescale="90000">
+    <SegmentTimeline>
+     <S d="128276" t="147133991790000"/>
+     <S d="172800" r="37"/>
+     <S d="235324"/>
+    </SegmentTimeline>
+   </SegmentTemplate>
+   <Representation bandwidth="700000" id="video=700000" scanType="progressive">
+   </Representation>
+  </AdaptationSet>
+ </Period>
+ <Period duration="PT19.008000S" id="58" start="PT454117H16M48.009291S">
+  <BaseURL>
+   https://demo.daiconnect.com/live/dash/usp/dash_blue_Mobole
+  </BaseURL>
+  <AdaptationSet audioSamplingRate="48000" codecs="mp4a.40.2" contentType="audio" group="1" id="1" mimeType="audio/mp4" segmentAlignment="true" startWithSAP="1">
+   <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="1"/>
+   <SupplementalProperties schemeIdUri="urn:dvb:dash:lowlatency:critical:2019" value="true"/>
+   <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+   <SegmentTemplate initialization="scte35-$RepresentationID$.dash" media="scte35-$RepresentationID$-$Time$.dash" presentationTimeOffset="78471465984446" timescale="48000">
+    <SegmentTimeline>
+     <S d="55296" t="78471465984446"/>
+     <S d="92160" r="7"/>
+     <S d="119808"/>
+    </SegmentTimeline>
+   </SegmentTemplate>
+   <Representation bandwidth="69000" id="audio=69000">
+   </Representation>
+  </AdaptationSet>
+  <AdaptationSet codecs="avc1.64001F" contentType="video" group="2" height="720" id="2" mimeType="video/mp4" par="16:9" sar="1:1" segmentAlignment="true" startWithSAP="1" width="1280">
+   <SupplementalProperties schemeIdUri="urn:dvb:dash:lowlatency:critical:2019" value="true"/>
+   <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+   <SegmentTemplate initialization="scte35-$RepresentationID$.dash" media="scte35-$RepresentationID$-$Time$.dash" presentationTimeOffset="147133998720000" timescale="90000">
+    <SegmentTimeline>
+     <S d="110276" t="147133998720000"/>
+     <S d="172800" r="7"/>
+     <S d="217324"/>
+    </SegmentTimeline>
+   </SegmentTemplate>
+   <Representation bandwidth="700000" id="video=700000" scanType="progressive">
+   </Representation>
+  </AdaptationSet>
+ </Period>
+ <Period duration="PT1M16.992000S" id="59" start="PT454117H17M7.017291S">
+  <BaseURL>
+   https://demo.daiconnect.com/live/dash/usp/dash_blue_Mobole
+  </BaseURL>
+  <AdaptationSet audioSamplingRate="48000" codecs="mp4a.40.2" contentType="audio" group="1" id="1" mimeType="audio/mp4" segmentAlignment="true" startWithSAP="1">
+   <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="1"/>
+   <SupplementalProperties schemeIdUri="urn:dvb:dash:lowlatency:critical:2019" value="true"/>
+   <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+   <SegmentTemplate initialization="scte35-$RepresentationID$.dash" media="scte35-$RepresentationID$-$Time$.dash" presentationTimeOffset="78471466896830" timescale="48000">
+    <SegmentTimeline>
+     <S d="64512" t="78471466896830"/>
+     <S d="92160" r="37"/>
+     <S d="129024"/>
+    </SegmentTimeline>
+   </SegmentTemplate>
+   <Representation bandwidth="69000" id="audio=69000">
+   </Representation>
+  </AdaptationSet>
+  <AdaptationSet codecs="avc1.64001F" contentType="video" group="2" height="720" id="2" mimeType="video/mp4" par="16:9" sar="1:1" segmentAlignment="true" startWithSAP="1" width="1280">
+   <SupplementalProperties schemeIdUri="urn:dvb:dash:lowlatency:critical:2019" value="true"/>
+   <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+   <SegmentTemplate initialization="scte35-$RepresentationID$.dash" media="scte35-$RepresentationID$-$Time$.dash" presentationTimeOffset="147134000430000" timescale="90000">
+    <SegmentTimeline>
+     <S d="128276" t="147134000430000"/>
+     <S d="172800" r="37"/>
+     <S d="235324"/>
+    </SegmentTimeline>
+   </SegmentTemplate>
+   <Representation bandwidth="700000" id="video=700000" scanType="progressive">
+   </Representation>
+  </AdaptationSet>
+ </Period>
+ <Period id="60" start="PT454117H18M24.009291S">
+  <BaseURL>
+   https://demo.daiconnect.com/live/dash/usp/dash_blue_Mobole
+  </BaseURL>
+  <AdaptationSet audioSamplingRate="48000" codecs="mp4a.40.2" contentType="audio" group="1" id="1" mimeType="audio/mp4" segmentAlignment="true" startWithSAP="1">
+   <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="1"/>
+   <SupplementalProperties schemeIdUri="urn:dvb:dash:lowlatency:critical:2019" value="true"/>
+   <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+   <SegmentTemplate initialization="scte35-$RepresentationID$.dash" media="scte35-$RepresentationID$-$Time$.dash" presentationTimeOffset="78471470592446" timescale="48000">
+    <SegmentTimeline>
+     <S d="55296" t="78471470592446"/>
+     <S d="92160" r="7"/>
+    </SegmentTimeline>
+   </SegmentTemplate>
+   <Representation bandwidth="69000" id="audio=69000">
+   </Representation>
+  </AdaptationSet>
+  <AdaptationSet codecs="avc1.64001F" contentType="video" group="2" height="720" id="2" mimeType="video/mp4" par="16:9" sar="1:1" segmentAlignment="true" startWithSAP="1" width="1280">
+   <SupplementalProperties schemeIdUri="urn:dvb:dash:lowlatency:critical:2019" value="true"/>
+   <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+   <SegmentTemplate initialization="scte35-$RepresentationID$.dash" media="scte35-$RepresentationID$-$Time$.dash" presentationTimeOffset="147134007360000" timescale="90000">
+    <SegmentTimeline>
+     <S d="110276" t="147134007360000"/>
+     <S d="172800" r="7"/>
+    </SegmentTimeline>
+   </SegmentTemplate>
+   <Representation bandwidth="700000" id="video=700000" scanType="progressive">
+   </Representation>
+  </AdaptationSet>
+ </Period>
+ <ServiceDescription id="1">
+  <Scope schemeIdUri="urn:dvb:dash:lowlatency:scope:2019"/>
+  <Latency max="45000" min="1000" target="10000"/>
+  <PlaybackRate max="1.5" min="0.5"/>
+ </ServiceDescription>
+ <UTCTiming schemeIdUri="urn:mpeg:dash:utc:http-iso:2014" value="https://time.akamai.com/?iso"/>
+</MPD>

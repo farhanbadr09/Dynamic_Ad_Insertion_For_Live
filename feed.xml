@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:mpeg:dash:schema:mpd:2011" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd" xmlns:daiconnect="urn:daiconnect:dai:2019:xml" profiles="urn:mpeg:dash:profile:isoff-live:2011,urn:hbbtv:dash:profile:isoff-live:2012" type="dynamic" availabilityStartTime="1970-01-01T00:00:00Z" publishTime="2021-10-11T10:50:34Z" minimumUpdatePeriod="PT2S" minBufferTime="PT2S" timeShiftBufferDepth="PT5M" maxSegmentDuration="PT3S">
+  <Period id="112366" start="PT453874H45M7.020250S" duration="PT1M16.991999S">
+    <BaseURL>https://live.unified-streaming.com/scte35/scte35.isml/dash/</BaseURL>
+    <AdaptationSet audioSamplingRate="48000" mimeType="audio/mp4" codecs="mp4a.40.2" startWithSAP="1" id="1" group="1" contentType="audio" segmentAlignment="true">
+      <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="1"/>
+      <SupplementalProperties schemeIdUri="urn:dvb:dash:lowlatency:critical:2019" value="true"/>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <SegmentTemplate timescale="48000" presentationTimeOffset="78429557136972" media="scte35-$RepresentationID$-$Time$.dash" initialization="scte35-$RepresentationID$.dash">
+        <SegmentTimeline>
+          <S t="78429558132300" d="92160" r="27"/>
+          <S d="119808"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation id="audio=69000" bandwidth="69000">
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet width="1280" height="720" sar="1:1" mimeType="video/mp4" codecs="avc1.64001F" startWithSAP="1" id="2" group="2" contentType="video" par="16:9" segmentAlignment="true">
+      <SupplementalProperties schemeIdUri="urn:dvb:dash:lowlatency:critical:2019" value="true"/>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <SegmentTemplate timescale="90000" presentationTimeOffset="147055419630000" media="scte35-$RepresentationID$-$Time$.dash" initialization="scte35-$RepresentationID$.dash">
+        <SegmentTimeline>
+          <S t="147055421503823" d="172800" r="27"/>
+          <S d="217777"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation scanType="progressive" id="video=700000" bandwidth="700000">
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period id="112367" start="PT453874H46M24.012249S" duration="PT19.008000S">
+    <BaseURL>https://live.unified-streaming.com/scte35/scte35.isml/dash/</BaseURL>
+    <AdaptationSet audioSamplingRate="48000" mimeType="audio/mp4" codecs="mp4a.40.2" startWithSAP="1" id="1" group="1" contentType="audio" segmentAlignment="true">
+      <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="1"/>
+      <SupplementalProperties schemeIdUri="urn:dvb:dash:lowlatency:critical:2019" value="true"/>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <SegmentTemplate timescale="48000" presentationTimeOffset="78429560832588" media="scte35-$RepresentationID$-$Time$.dash" initialization="scte35-$RepresentationID$.dash">
+        <SegmentTimeline>
+          <S t="78429560832588" d="64512"/>
+          <S d="92160" r="7"/>
+          <S d="110592"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation id="audio=69000" bandwidth="69000">
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet width="1280" height="720" sar="1:1" mimeType="video/mp4" codecs="avc1.64001F" startWithSAP="1" id="2" group="2" contentType="video" par="16:9" segmentAlignment="true">
+      <SupplementalProperties schemeIdUri="urn:dvb:dash:lowlatency:critical:2019" value="true"/>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <SegmentTemplate timescale="90000" presentationTimeOffset="147055426560000" media="scte35-$RepresentationID$-$Time$.dash" initialization="scte35-$RepresentationID$.dash">
+        <SegmentTimeline>
+          <S t="147055426560000" d="127823"/>
+          <S d="172800" r="7"/>
+          <S d="199777"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation scanType="progressive" id="video=700000" bandwidth="700000">
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period id="112368" start="PT453874H46M43.020250S" duration="PT1M16.991999S">
+    <BaseURL>https://live.unified-streaming.com/scte35/scte35.isml/dash/</BaseURL>
+    <AdaptationSet audioSamplingRate="48000" mimeType="audio/mp4" codecs="mp4a.40.2" startWithSAP="1" id="1" group="1" contentType="audio" segmentAlignment="true">
+      <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="1"/>
+      <SupplementalProperties schemeIdUri="urn:dvb:dash:lowlatency:critical:2019" value="true"/>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <SegmentTemplate timescale="48000" presentationTimeOffset="78429561744972" media="scte35-$RepresentationID$-$Time$.dash" initialization="scte35-$RepresentationID$.dash">
+        <SegmentTimeline>
+          <S t="78429561744972" d="73728"/>
+          <S d="92160" r="37"/>
+          <S d="119808"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation id="audio=69000" bandwidth="69000">
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet width="1280" height="720" sar="1:1" mimeType="video/mp4" codecs="avc1.64001F" startWithSAP="1" id="2" group="2" contentType="video" par="16:9" segmentAlignment="true">
+      <SupplementalProperties schemeIdUri="urn:dvb:dash:lowlatency:critical:2019" value="true"/>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <SegmentTemplate timescale="90000" presentationTimeOffset="147055428270000" media="scte35-$RepresentationID$-$Time$.dash" initialization="scte35-$RepresentationID$.dash">
+        <SegmentTimeline>
+          <S t="147055428270000" d="145823"/>
+          <S d="172800" r="37"/>
+          <S d="217777"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation scanType="progressive" id="video=700000" bandwidth="700000">
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period id="112369" start="PT453874H48M0.012249S" duration="PT19.216000S">
+    <BaseURL>https://live.unified-streaming.com/scte35/scte35.isml/dash/</BaseURL>
+    <AdaptationSet audioSamplingRate="48000" mimeType="audio/mp4" codecs="mp4a.40.2" startWithSAP="1" id="1" group="1" contentType="audio" segmentAlignment="true">
+      <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="1"/>
+      <SupplementalProperties schemeIdUri="urn:dvb:dash:lowlatency:critical:2019" value="true"/>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <SegmentTemplate timescale="48000" presentationTimeOffset="78429565440588" media="scte35-$RepresentationID$-$Time$.dash" initialization="scte35-$RepresentationID$.dash">
+        <SegmentTimeline>
+          <S t="78429565440588" d="92928"/>
+          <S d="92160" r="8"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation id="audio=69000" bandwidth="69000">
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet width="1280" height="720" sar="1:1" mimeType="video/mp4" codecs="avc1.64001F" startWithSAP="1" id="2" group="2" contentType="video" par="16:9" segmentAlignment="true">
+      <SupplementalProperties schemeIdUri="urn:dvb:dash:lowlatency:critical:2019" value="true"/>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <SegmentTemplate timescale="90000" presentationTimeOffset="147055435200000" media="scte35-$RepresentationID$-$Time$.dash" initialization="scte35-$RepresentationID$.dash">
+        <SegmentTimeline>
+          <S t="147055435200000" d="180000"/>
+          <S d="172800" r="8"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation scanType="progressive" id="video=700000" bandwidth="700000">
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period id="112370" start="PT453874H48M19.228250S" duration="PT1M16.799999S">
+    <BaseURL>https://live.unified-streaming.com/scte35/scte35.isml/dash/</BaseURL>
+    <AdaptationSet audioSamplingRate="48000" mimeType="audio/mp4" codecs="mp4a.40.2" startWithSAP="1" id="1" group="1" contentType="audio" segmentAlignment="true">
+      <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="1"/>
+      <SupplementalProperties schemeIdUri="urn:dvb:dash:lowlatency:critical:2019" value="true"/>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <SegmentTemplate timescale="48000" presentationTimeOffset="78429566362956" media="scte35-$RepresentationID$-$Time$.dash" initialization="scte35-$RepresentationID$.dash">
+        <SegmentTimeline>
+          <S t="78429566362956" d="92160" r="15"/>
+          <S d="65536"/>
+          <S d="118784"/>
+          <S d="92160" r="7"/>
+          <S d="56320"/>
+          <S d="128000"/>
+          <S d="92160" r="11"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation id="audio=69000" bandwidth="69000">
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet width="1280" height="720" sar="1:1" mimeType="video/mp4" codecs="avc1.64001F" startWithSAP="1" id="2" group="2" contentType="video" par="16:9" segmentAlignment="true">
+      <SupplementalProperties schemeIdUri="urn:dvb:dash:lowlatency:critical:2019" value="true"/>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <SegmentTemplate timescale="90000" presentationTimeOffset="147055436935200" media="scte35-$RepresentationID$-$Time$.dash" initialization="scte35-$RepresentationID$.dash">
+        <SegmentTimeline>
+          <S t="147055436935200" d="172800" r="15"/>
+          <S d="117088"/>
+          <S d="228512"/>
+          <S d="172800" r="7"/>
+          <S d="99088"/>
+          <S d="246512"/>
+          <S d="172800" r="11"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation scanType="progressive" id="video=700000" bandwidth="700000">
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period id="DAICONNECT_0_1684" start="PT453874H49M36.028249S">
+    <BaseURL>https://cdn.daiconnect.com/dev/dash-template2/957526495ede988b024fda268e15bd64/</BaseURL>
+    <AdaptationSet frameRate="25/1" mimeType="video/mp4" startWithSAP="1" segmentAlignment="true" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
+      <SegmentTemplate timescale="90000">
+        <SegmentTimeline>
+          <S d="270000" r="2"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation width="1280" height="720" codecs="avc1.64001f" id="1" bandwidth="3150000">
+        <SegmentTemplate media="index720at315_$Time$.mp4" initialization="index720at315_init.mp4">
+        </SegmentTemplate>
+      </Representation>
+      <Representation width="960" height="540" codecs="avc1.64001f" id="2" bandwidth="2100000">
+        <SegmentTemplate media="index540at210_$Time$.mp4" initialization="index540at210_init.mp4">
+        </SegmentTemplate>
+      </Representation>
+      <Representation width="720" height="406" codecs="avc1.64001e" id="3" bandwidth="1200000">
+        <SegmentTemplate media="index406at120_$Time$.mp4" initialization="index406at120_init.mp4">
+        </SegmentTemplate>
+      </Representation>
+      <Representation width="640" height="360" codecs="avc1.64001e" id="4" bandwidth="700000">
+        <SegmentTemplate media="index360at70_$Time$.mp4" initialization="index360at70_init.mp4">
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" lang="eng">
+      <SegmentTemplate timescale="48000" media="indexaudio__$Time$.mp4" initialization="indexaudio__init.mp4">
+        <SegmentTimeline>
+          <S d="146432"/>
+          <S t="146432" d="143360"/>
+          <S t="289792" d="144384"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation audioSamplingRate="48000" codecs="mp4a.40.2" id="5" bandwidth="96000">
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <ServiceDescription id="1">
+    <Scope schemeIdUri="urn:dvb:dash:lowlatency:scope:2019"/>
+    <Latency target="10000" max="45000" min="1000"/>
+    <PlaybackRate max="1.5" min="0.5"/>
+  </ServiceDescription>
+  <UTCTiming schemeIdUri="urn:mpeg:dash:utc:http-iso:2014" value="https://time.akamai.com/?iso"/>
+</MPD>
