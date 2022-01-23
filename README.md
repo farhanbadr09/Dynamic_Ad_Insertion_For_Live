@@ -1,5 +1,5 @@
 # Dynamic_Ad_Insertion_For_Live_Streaming
-# Dynamic_Ad_Insertion_For_Live
+
 Read Streaming Data from here : https://demo.daiconnect.com/live/dash/usp/dash_blue/.mpd?requestuid=bbd47347-840b-44e3-bb47-2d3bd57b7d6b
 In background process in which interval the file will update
 https://demo.daiconnect.com/live/dash/usp/dash_blue/.mpd?requestuid=bbd47347-840b-44e3-bb47-2d3bd57b7d6b
