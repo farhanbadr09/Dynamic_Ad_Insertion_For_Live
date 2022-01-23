@@ -21,6 +21,7 @@ https://your-host/dash/get_stream?content_id=12345&user_id=abcd, parent method.
 
 
 Basic guides
+
 Step 1:
 API:
 API, to start stream.
